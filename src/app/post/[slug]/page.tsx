@@ -1,16 +1,9 @@
-import { redirect } from 'next/navigation';
-import Error from 'next/error';
 import Head from 'next/head';
 import { getPostBySlug, getAllPosts } from '@/libs/post';
 import markdownToHtml from '@/libs/marktohtml';
 import PostBody from '@/components/post-body';
-
 import PostHeader from '@/components/post-header';
-// import Container from '../../components/container'
-// import Header from '../../components/header'
-// import Layout from '../../components/layout'
-// import PostTitle from '../../components/post-title'
-// import { CMS_NAME } from '../../lib/constants'
+
 
 
 type PostProps = {
