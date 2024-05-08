@@ -22,6 +22,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Todo
 - [] Add Tags for each post
+- [] Add Tag manager (GA)
+- [] Add domain
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

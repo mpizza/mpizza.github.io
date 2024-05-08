@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return {
       url: `${BASE_URL}/post/${post.slug}`,
       lastModified: post.date,
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.5,
     }
   });
