@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const NavBar = () => {
   const links = [
-    {name: "About", link: '/#about'},
+    {name: "About", link: '/about'},
     {name: "Blog", link: '/blog'},
   ];
 

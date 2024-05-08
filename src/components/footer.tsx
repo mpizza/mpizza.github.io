@@ -19,7 +19,7 @@ const Footer = () => {
 
             <ul className="mt-8 space-y-4 text-sm">
               <li>
-                <a className="text-gray-700 transition hover:text-gray-700/75" href="/profile"> Profile </a>
+                <a className="text-gray-700 transition hover:text-gray-700/75" href="/about"> Profile </a>
               </li>
             </ul>
           </div>
@@ -28,6 +28,9 @@ const Footer = () => {
             <p className="text-lg font-medium text-gray-900">Site Map</p>
 
             <ul className="mt-8 space-y-4 text-sm">
+              <li>
+                <a className="text-gray-700 transition hover:text-gray-700/75" href="/about"> Profile </a>
+              </li>
               <li>
                 <a className="text-gray-700 transition hover:text-gray-700/75" href="/blog"> Blog </a>
               </li>
