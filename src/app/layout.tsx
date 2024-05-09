@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="min-h-screen">
           <Nav/>
-          <div className="container mx-auto px-4 my-20">
+          <div className="container mx-auto px-4">
           {children}
           </div>
           <Footer/>

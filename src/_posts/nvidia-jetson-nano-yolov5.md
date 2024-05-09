@@ -2,7 +2,7 @@
 title: '在 NVIDIA Jetson Nano 上跑 Yolov5 上踩的雷!!!'
 excerpt: '圖像辨識的 Model 很多，研究了一下，Yolo演算法把圖片分割的方式非常特別，所以很像試試看。但在 Jetson Nano 上跑起 Yolov5 可是整整花了我兩個晚上啊 !!! 這篇文章來說說我踩過的雷。'
 coverImage: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1683708139372/6910adc4-ca5f-4efc-8f27-bd58894a7e17.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
-date: '2023-05-10T05:35:07.322Z'
+date: '2023-05-10'
 author:
   name: PoYu Chen
   picture: '/avatar.png'

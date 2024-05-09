@@ -27,7 +27,7 @@ export default function Home() {
         <img
           alt=""
           src="main-2.jpeg"
-          className="h-full w-full object-cover lg:h-[calc(100%_-_2rem)] lg:self-end lg:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
+          className="rounded-ss-[30px] h-full w-full object-cover lg:h-[calc(100%_-_2rem)] lg:self-end lg:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
         />
       </section>
 
