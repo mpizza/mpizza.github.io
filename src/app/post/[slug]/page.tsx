@@ -1,10 +1,8 @@
-import Head from 'next/head';
+import type { Metadata, ResolvingMetadata } from 'next'
 import { getPostBySlug, getAllPosts } from '@/libs/post';
 import markdownToHtml from '@/libs/marktohtml';
 import PostBody from '@/components/post-body';
 import PostHeader from '@/components/post-header';
-
-
 
 type PostProps = {
   params: {
@@ -35,19 +33,12 @@ const Post = async ({ params }: PostProps) => {
   }
 
   const post = await getPost(slug);
+  
   return (
     <div>
       {(
         <>
-          <article className="mb-32">
-            <Head>
-              <title>
-                {post.title}
-              </title>
-              {post?.ogImage &&
-                <meta property="og:image" content={post.ogImage.url} /> 
-              }
-            </Head>
+          <article className="items-center">
             <PostHeader
               title={post.title}
               coverImage={(post.coverImage ? post.coverImage : '')}
@@ -71,4 +62,33 @@ export async function generateStaticParams() {
   return posts.map((post) => ({
     slug: post.slug,
   }));
+}
+
+export async function generateMetadata(
+  { params }: PostProps,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  // read route params
+  const {slug} = params
+  // xxx Maybe there is a new way to reduce count of calling getPostBySlug.
+  const post = getPostBySlug(slug, [
+    'title',
+    'date',
+    'slug',
+    'author',
+    'content',
+    'ogImage',
+    'coverImage',
+  ]);
+  let ogImages = [];
+  if (post.ogImage?.url) {
+    ogImages.push(post.ogImage?.url);
+  }
+  return {
+    title: post.title,
+    description: post.excerpt,
+    openGraph: {
+      images: ogImages,
+    },
+  }
 }

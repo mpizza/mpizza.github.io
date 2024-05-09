@@ -2,7 +2,7 @@
 title: '寫了一個電子發票分析器'
 excerpt: '和 ChatGPT 一起用 d3.js + tailwindcss 做一個 Side project.'
 coverImage: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1682494929849/f621bc2a-3789-4491-8c19-e2284163cd58.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
-date: '2023-04-26T05:35:07.322Z'
+date: '2023-04-26'
 author:
   name: PoYu Chen
   picture: '/avatar.png'
