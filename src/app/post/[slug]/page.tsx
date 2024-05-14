@@ -76,6 +76,7 @@ export async function generateMetadata(
     'date',
     'slug',
     'author',
+    'keywords',
     'content',
     'ogImage',
     'coverImage',
@@ -87,6 +88,7 @@ export async function generateMetadata(
   return {
     title: post.title,
     description: post.excerpt,
+    keywords: post.keywords,
     openGraph: {
       images: ogImages,
     },

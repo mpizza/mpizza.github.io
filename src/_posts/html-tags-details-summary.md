@@ -3,6 +3,7 @@ title: '不用 JS 就可以有開合功能'
 excerpt: '居然有一組 html tags，不需要 js 的幫助，就可以實作出開合的功能'
 coverImage: '/post_photos/html-tags-details-summary/main.png'
 date: '2024-05-09'
+keywords: 'JS, Web, W3C'
 author:
   name: PoYu Chen
   picture: '/avatar.png'
