@@ -3,6 +3,7 @@ title: '[讀書心得] 林肯公路 / The Lincoln Highway'
 date: '2023-11-14'
 excerpt: '林肯公路前面幾個章節覺得書裡的節奏算平緩，但沒想到，最後二個章節，劇情飛快，而且變化之大，會讓人一直想看完'
 coverImage: '/LincolnHighway.jpg'
+keywords: '讀書心得、林肯公路'
 author:
   name: PoYu Chen
   picture: '/avatar.png'
