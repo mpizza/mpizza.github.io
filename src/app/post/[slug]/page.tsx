@@ -4,19 +4,17 @@ import markdownToHtml from '@/libs/marktohtml';
 import PostBody from '@/components/post-body';
 import PostHeader from '@/components/post-header';
 
-type PostProps = {
-  params: {
-    slug: string
-  }
-}
+type PostProps = Promise<{ slug: string }>
 
 type Items = {
   [key: string]: string
 }
 
-const Post = async ({ params }: PostProps) => {
-  const {slug} = params;
-
+const Post = async (props: {
+  params: PostProps
+}) => {
+  const params = await props.params;
+  const slug = params.slug
   const getPost = async (slug: string) => {
     let post = getPostBySlug(slug, [
       'title',
@@ -31,7 +29,6 @@ const Post = async ({ params }: PostProps) => {
     post['content'] = content;
     return post;
   }
-
   const post = await getPost(slug);
   
   return (
@@ -64,12 +61,10 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata(
-  { params }: PostProps,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
+export async function generateMetadata(props: {params: PostProps}) {
   // read route params
-  const {slug} = params
+  const params = await props.params;
+  const slug = params.slug
   // xxx Maybe there is a new way to reduce count of calling getPostBySlug.
   const post = getPostBySlug(slug, [
     'title',

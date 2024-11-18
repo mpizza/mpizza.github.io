@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 const BASE_URL = 'https://mpizza.github.io';
 import { getAllPosts } from '@/libs/post';
+export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Doesn't work in dev mode
