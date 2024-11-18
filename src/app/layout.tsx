@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
+import GoogleAnalytics from '@/components/google-analytics';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="zh-tw">
+      <GoogleAnalytics/>
       <body className={inter.className}>
         <div className="min-h-screen">
           <Nav/>
