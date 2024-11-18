@@ -5,7 +5,7 @@ import "./globals.css";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 import GoogleAnalytics from '@/components/google-analytics';
-
+import { GoogleTagManager } from '@next/third-parties/google';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-tw">
+      <GoogleTagManager gtmId="GTM-NRFLHNHG" />
       <GoogleAnalytics/>
       <body className={inter.className}>
         <div className="min-h-screen">
