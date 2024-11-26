@@ -34,6 +34,9 @@ const Footer = () => {
               <li>
                 <a className="text-gray-700 transition hover:text-gray-700/75" href="/blog"> Blog </a>
               </li>
+              <li>
+                <a className="text-gray-700 transition hover:text-gray-700/75" href="/shop"> 小商店 </a>
+              </li>
             </ul>
           </div>
 
