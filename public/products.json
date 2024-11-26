@@ -1,6 +1,6 @@
 [
   {
-    "name": "Aaron Judge - 2023 MLB TOPPS NOW® Card 754",
+    "title": "Aaron Judge - 2023 MLB TOPPS NOW® Card 754",
     "description": "Aaron Judge 生涯第一次單場三隻全壘打",
     "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/6501ca7a84d66577f06bcde4",
     "details": {
@@ -15,7 +15,7 @@
      "https://jp.topps.com/_next/image?url=https%3A%2F%2Fwww.topps.com%2Fmedia%2Fcatalog%2Fproduct%2Fa%2Fr%2Fartbb-16c2s-23tn-0754_2.png&w=3840&q=75"]
   },
   {
-    "name": "Elly De La Cruz/Shohei Ohtani - 2023 MLB TOPPS NOW®Topps JP Card 750",
+    "title": "Elly De La Cruz/Shohei Ohtani - 2023 MLB TOPPS NOW®Topps JP Card 750",
     "description": "兩位巨星在跨聯盟比賽中同框紀念球卡",
     "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/6501cc753de2865e899ed8a7",
     "details": {
@@ -28,5 +28,83 @@
     "keywords": ["Shohei Ohtani", "Elly De La Cruz", "MLB", "Topps", "Baseball card"],
     "images": ["https://jp.topps.com/_next/image?url=https%3A%2F%2Fwww.topps.com%2Fmedia%2Fcatalog%2Fproduct%2Fa%2Fr%2Fartbb-16c2s-23tn-0750_.png&w=3840&q=75",
      "https://jp.topps.com/_next/image?url=https%3A%2F%2Fwww.topps.com%2Fmedia%2Fcatalog%2Fproduct%2Fa%2Fr%2Fartbb-16c2s-23tn-0750_2_3.png&w=3840&q=75"]
+  },
+  {
+    "title": "Shohei Ohtani 50/50 - 2024 MLB TOPPS NOW® Card 722 - LOOK FOR AUTOS - PR: 653,737",
+    "description": "大谷翔平 50/50 紀念卡",
+    "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/67454052915fc58fbcf387e6",
+    "details": {
+      "release_Year": "2024",
+      "baseball_Player":	["Shohei Ohtani"],
+      "series": "2024 MLB TOPPS NOW",
+      "no": "722"
+    },
+    "price": 250,
+    "keywords": ["Shohei Ohtani", "50 steals", "50 homeruns", "50-50", "MLB", "Topps", "Baseball card"],
+    "images": ["https://www.topps.com/media/catalog/product/cache/85d1d431b9dc807689df3bf5f08e33f8/a/r/artbb-16c2s-24tn-0722_.png"]
+  },
+  {
+    "title": "Topps MLB® Living Set® Card #715 - Chien-Ming Wang PR: 2328",
+    "description": "Chien-Ming Wang - Topps MLB® Living Set® JP Card 715 - 王建民球員卡",
+    "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/67453f63915fc58fbcf3759b",
+    "details": {
+      "release_Year": "2024",
+      "baseball_Player":	["Chien-Ming Wang"],
+      "series": "2024 Topps MLB® Living Set",
+      "no": "715"
+    },
+    "price": 200,
+    "keywords": ["Chien-Ming Wang", "Living Set", "Yankee", "MLB", "Topps", "Baseball card"],
+    "images": ["https://www.topps.com/media/catalog/product/cache/85d1d431b9dc807689df3bf5f08e33f8/a/r/artbb-cckb16-24tls-0715__2.png"]
+  },
+  {
+    "title": "Yu Darvish - 2024 MLB TOPPS NOW® Card 213 - PR: 5076",
+    "description": "Yu Darvish 200 勝紀念卡",
+    "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/67454120a21caa424173cadc",
+    "details": {
+      "release_Year": "2024",
+      "baseball_Player":	["Yu Darvish", "MLB", "Topps", "Baseball card"],
+      "series": "2024 MLB TOPPS NOW",
+      "no": "213"
+    },
+    "price": 250,
+    "keywords": ["Yu Darvish", "200 wins", "MLB", "Topps", "Baseball card"],
+    "images": ["https://www.topps.com/media/catalog/product/cache/85d1d431b9dc807689df3bf5f08e33f8/a/r/artbb-16c2s-24tn-0213__4.png"]
+  },
+  {
+    "title": "Shohei Ohtani - 2024 MLB TOPPS NOW® Card 36 - 大谷翔平道奇隊首支全壘打",
+    "description": " Shohei Ohtani - 2024 MLB TOPPS NOW® Card 36",
+    "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/67454218a75c80925a854df9",
+    "details": {
+      "release_Year": "2024",
+      "baseball_Player": [
+        "Shohei Ohtani"
+      ],
+      "series": "2024 MLB TOPPS NOW",
+      "no": "36"
+    },
+    "price": 250,
+    "keywords": ["Shohei Ohtani", "MLB", "Topps", "Baseball card"],
+    "images": [
+      "https://storage.googleapis.com/fami-supersell-persistent/2655415/m3xwmsau"
+    ]
+  },
+  {
+    "title": "Shohei Ohtani - 2024 MLB TOPPS NOW® Card 212 - 大谷翔平首支再見安打",
+    "description": "Shohei Ohtani - 2024 MLB TOPPS NOW® Card 212 - 大谷翔平首支再見安打",
+    "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/674541aaa75c80925a85406c",
+    "details": {
+      "release_Year": "2024",
+      "baseball_Player": [
+        "Shohei Ohtani"
+      ],
+      "series": "2024 MLB TOPPS NOW",
+      "no": "212"
+    },
+    "price": 250,
+    "keywords": ["Shohei Ohtani", "MLB", "Topps", "Baseball card"],
+    "images": [
+      "https://storage.googleapis.com/fami-supersell-persistent/2655415/m3xwkft4"
+    ]
   }
 ]
