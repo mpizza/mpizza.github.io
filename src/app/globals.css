@@ -103,7 +103,9 @@ pre.code-javascript code {
 pre.code-jquery code {
   color: #4dd0e1;
 }
-
+a {
+  color: #91a7ff;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
