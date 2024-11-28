@@ -11,7 +11,7 @@ ogImage:
   url: '/post_photos/chatbot-protection/code-result.jpg'
 ---
 ## AI智慧客服被濫用 ?
-前幾天看到一則新聞大意是，台北捷運的 AI 智慧客服[1][2]被大家試出可以幫忙寫程式，然後在某些圈子內就看到有人評論 AI 智慧客服就有這類的風險，會被大家拿來惡搞濫用。
+前幾天看到一則新聞大意是，台北捷運的 AI 智慧客服[1][2]被大家試出可以幫忙寫程式，然後在北捷粉專下的留言看到有人評論 AI 智慧客服就有這類的風險，會被大家拿來惡搞濫用。
 思考了一下，應該加上一個 prompt 就可以了阻止這件事了吧？
 
 ## 試著用 LangGraph 來實作心中的 idea
@@ -99,7 +99,7 @@ intent_prompt = """
 跑出來的結果截圖如下:
 ![output](/post_photos/chatbot-protection/code-result.jpg)
 
-這個小程式沒有做到的事，就是對應的 Topic 還可以再附加上 node，再用 AI 去處理更細節的回答，比如提借完整的路線圖、票價的規則。但手邊也沒有這些資料，就沒做下去了。
+這個小程式沒有做到的事，就是對應的 Topic 還可以再附加上 node，再用 AI 去處理更細節的回答，比如提供完整的路線圖、票價的規則及細項。但手邊也沒有這些資料，就沒做下去了。
 
 快速的寫了一支小程式([GitHub Repo 再此](https://github.com/mpizza/chatbot-graph))
 歡迎大家給一些 feedback 在 github 上。
