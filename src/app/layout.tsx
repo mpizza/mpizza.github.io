@@ -20,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-tw">
+      <meta name="google-site-verification" content="VRGhJClfdwRVy_lQ0LAgmbpPqAVCmtJH3ZdK-yoEnsg" />
       <GoogleTagManager gtmId="GTM-NRFLHNHG" />
       <GoogleAnalytics/>
       <body className={inter.className}>
