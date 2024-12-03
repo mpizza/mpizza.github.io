@@ -99,6 +99,11 @@ const Footer = () => {
                 </svg>
               </a>
             </li>
+            <li>
+              <a href="https://onlypy.bobaboba.me" target="_blank">
+                <img height="100%" src="https://s3.ap-southeast-1.amazonaws.com/media.anyonelab.com/images/boba/boba-embed-icon.png" alt="請我喝珍奶！"/>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
