@@ -39,7 +39,7 @@
       "series": "2024 MLB TOPPS NOW",
       "no": "722"
     },
-    "price": 250,
+    "price": 320,
     "keywords": ["Shohei Ohtani", "50 steals", "50 homeruns", "50-50", "MLB", "Topps", "Baseball card"],
     "images": ["https://www.topps.com/media/catalog/product/cache/85d1d431b9dc807689df3bf5f08e33f8/a/r/artbb-16c2s-24tn-0722_.png"]
   },
@@ -106,5 +106,23 @@
     "images": [
       "https://storage.googleapis.com/fami-supersell-persistent/2655415/m3xwkft4"
     ]
+  },
+  {
+    "title": "Shohei Ohtani - 2024 MLB Topps NOW® Card OS-6 MVP 卡",
+    "description": "Capping off an incredible season, look for these special cards of 2024 National League Most Valuable Player - Shohei Ohtani!\n為這個令人難以置信的賽季畫下句點，來看看這些2024年國家聯盟最有價值球員——大谷翔平的特別卡片！",
+    "images": [
+      "https://storage.googleapis.com/fami-supersell-persistent/2655415/m56gpjfb"
+    ],
+    "url": "https://famistore.famiport.com.tw/famistore/users/2655415/merchandises/676e5e71a1beb313197d284d",
+    "details": {
+      "release_Year": "2024",
+      "baseball_Player": [
+        "Shohei Ohtani "
+      ],
+      "series": "2024 MLB Topps NOW",
+      "no": "OS-6"
+    },
+    "price": 450,
+    "keywords": ["Shohei Ohtani", "MLB", "Topps", "Baseball card", "MVP"]
   }
 ]
