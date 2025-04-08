@@ -45,6 +45,11 @@ const Footer = () => {
 
             <ul className="mt-8 space-y-4 text-sm">
               <li>
+                <a className="text-gray-700 transition hover:text-gray-700/75" target="_blank" href="https://mpizza.github.io/cheerdate/"> 
+                  啦啦隊女孩班表查詢系統
+                </a>
+              </li>
+              <li>
                 <a className="text-gray-700 transition hover:text-gray-700/75" target="_blank" href="https://www.youtube.com/@goddamnedgame">
                   尬電玩 Youtube 頻道
                 </a>
