@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="zh-tw">
       <meta name="google-site-verification" content="VRGhJClfdwRVy_lQ0LAgmbpPqAVCmtJH3ZdK-yoEnsg" />
+      <meta name="google-adsense-account" content="ca-pub-9706163097460604"></meta>
       <GoogleTagManager gtmId="GTM-NRFLHNHG" />
       <GoogleAnalytics/>
       <body className={inter.className}>
