@@ -45,7 +45,7 @@ const Footer = () => {
 
             <ul className="mt-8 space-y-4 text-sm">
               <li>
-                <a className="text-gray-700 transition hover:text-gray-700/75" target="_blank" href="https://mpizza.github.io/cheerdate/"> 
+                <a className="text-gray-700 transition hover:text-gray-700/75" target="_blank" href="https://lala.pythings.dev/"> 
                   啦啦隊女孩班表查詢系統
                 </a>
               </li>
