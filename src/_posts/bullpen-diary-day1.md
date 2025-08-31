@@ -3,7 +3,7 @@ title: 上場前的牛棚日記 Day 1：自由的失眠夜，重溫魔球
 date: '2025-08-13'
 excerpt: 自由第一天就失眠！只好半夜爬起來，重溫《魔球》找點人生靈感。
 coverImage: '/post_photos/bullpen-diary/day1.jpg'
-keywords: LLM, AI, OpenAI, Vibe coding, Cheerdate, 啦啦隊班表, svelte, MVP, Tailwind
+keywords: diary, lifestory, career, moneyball
 author: 
   name: PoYu Chen
   picture: /avatar.png
