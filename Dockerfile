@@ -1,5 +1,4 @@
-#指定使用 Node.js 18.17.0 版本
-FROM node:18.17.0
+FROM node:20-alpine
 
 #設定工作目錄為 /app，表示之後的命令將在這個目錄下執行
 WORKDIR /app
