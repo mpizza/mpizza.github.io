@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-const BASE_URL = 'https://mpizza.github.io';
+const BASE_URL = 'https://www.pythings.dev';
 import { getAllPosts } from '@/libs/post';
 export const dynamic = 'force-static'
 
