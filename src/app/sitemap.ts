@@ -1,7 +1,6 @@
 import { MetadataRoute } from 'next';
-const BASE_URL = 'https://www.pythings.dev';
+const BASE_URL = 'https://pythings.dev';
 import { getAllPosts } from '@/libs/post';
-export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Doesn't work in dev mode
@@ -22,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE_URL}/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 0.5,
+      priority: 0.7
     },
     {
       url: `${BASE_URL}/shop`,
